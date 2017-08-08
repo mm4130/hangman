@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .hangman_box{border:2px solid crimson;background:black;height:500px}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+                <img alt="Brand" src="...">
+            </a>
+            </div>
+        </div>
+        </nav>
+        <div class="jumbotron">
+            <h1>Hello, world!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                Fuga impedit adipisci cum, dignissimos, sed non, aut, quos 
+                velit commodi perferendis perspiciatis excepturi veritatis. 
+                Cum ullam maiores sunt consectetur harum adipisci.
+            </p>
+            <p><a class="btn btn-primary btn-lg" href="#" role="button">START</a></p>
+        </div>
+        <div class="row">
+            <!-- LEFT COL  -->
+            <div class="col-md-5">
+                <!-- hangman box  -->
+                <div class="hangman_box">
+                </div>
+            </div>
+            <!-- RIGHT COL  -->
+            <div class="col-md-7">
+                <div class="row">
+                    <!-- message box  -->
+                    <blockquote>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                        <footer>Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                    </blockquote>
+                    <div class="alert alert-success" role="alert">
+                        <a href="#" class="alert-link">lorem</a>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <!-- guesses remaining box  -->
+                    
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">LETTERS REMAINING</h3>
+                        </div>
+                        <div class="panel-body">
+                            Letters left <span id="letters_left" class="badge">11</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- letters guessed box  -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">LETTERS GUESSED SO FAR</h3>
+                        </div>
+                        <div class="panel-body">
+                            <fieldset disabled>
+                                <div class="form-group">
+                                <label for="disabledTextInput">Letters guessed so far</label>
+                                <textarea class="form-control" rows="4" id="disabledTextInput" class="form-control"></textarea>
+                                </div>
+                            </fieldset>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <!-- wins box  -->
+
+                    </div>
+                    <div class="col-md-6">
+                        <!-- losses box  -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
+
+

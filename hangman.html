@@ -9,8 +9,18 @@
 
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <style>
-        .hangman_box{border:2px solid crimson;background:black;height:500px}
+        body {background-image: url("img/faceoff.jpg");background-size:cover;background-repeat: no-repeat;background-attachment: fixed;}
+        .hangman_box{border:2px solid #6888B1;background:black;background-image: url("img/Marvel-Comics-Sentinel-Maquette-022edited.jpg");background-size:cover;background-position:center;height:500px}
+        .hangman_body{width:50%;margin: 0 auto;position: absolute;bottom:0;left:27%}
+        .jumbotron {background:black}
+        .jumbotron h1{font-family: 'Titillium Web', sans-serif;font-weight:800;font-size:64px;/*color:lightgrey*/}
+        .panel-heading {background-color:#6888B1!important;border-color:#6888B1!important}
+        .panel-title {color:lemonchiffon;}
+        .panel-default {border-color:#6888B1!important}
+        blockquote {background: rgba(104, 136, 177, 0.7);color:white}
+        footer p {color:white;}
     </style>
 </head>
 <body>
@@ -21,11 +31,11 @@
             <a class="navbar-brand" href="#">
                 <img alt="Brand" src="...">
             </a>
-            </div>
+            </div>                                                                                                                  
         </div>
         </nav>
         <div class="jumbotron">
-            <h1>Hello, world!</h1>
+            <h1 class="hangman_title">MARVEL HANGMAN</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                 Fuga impedit adipisci cum, dignissimos, sed non, aut, quos 
                 velit commodi perferendis perspiciatis excepturi veritatis. 
@@ -38,6 +48,7 @@
             <div class="col-md-5">
                 <!-- hangman box  -->
                 <div class="hangman_box">
+                    <div class="hangman_body"><img src="img/sentinel.png" class="img-responsive" width="75%" alt="Sentinel" /></div>
                 </div>
             </div>
             <!-- RIGHT COL  -->
@@ -92,8 +103,13 @@
                     </div>
                 </div>
             </div>
-        </div>
-
+        </div> 
+        <!-- end row  -->
+        <footer>
+            <div class="container">
+                <p class="">&copy;Copyright 2017 Raheem Hardy.</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>

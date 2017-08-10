@@ -1,0 +1,17 @@
+body{background-image:url(img/faceoff.jpg);background-size:cover;background-repeat:no-repeat;background-attachment:fixed}
+.navbar{background-color:#dc143c}
+.navbar h1{margin:0}
+.hangman_box{margin-bottom:20px;border:2px solid #6888B1;background:#000;background-image:url(img/Marvel-Comics-Sentinel-Maquette-022edited.jpg);background-size:cover;background-position:center;height:500px}
+.hangman_body{width:50%;margin:0 auto;position:absolute;bottom:0;left:27%}
+.jumbotron{background:#000}
+.jumbotron p{color:#add8e6}
+.jumbotron h1{font-family:'Titillium Web',sans-serif;font-weight:800;font-size:64px}
+.wordbox{font-family:'Bangers',cursive;font-size:2em;color:#dc143c}
+.well{padding:10px}
+.panel-heading{background-color:#6888B1!important;border-color:#6888B1!important}
+.panel-title{color:#fffacd}
+.panel-default{border-color:#6888B1!important}
+blockquote{background:rgba(104,136,177,0.7);color:#fff}
+footer p{
+    color:#fff
+}
